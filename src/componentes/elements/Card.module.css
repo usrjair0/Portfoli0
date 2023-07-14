@@ -1,0 +1,40 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+}
+.card a{
+    width: 32%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card img:hover{
+    transition-duration: 0.7s;
+    transform: translateY(-7px);
+    scale: 1.05;
+}
+.image:not(:hover) {
+    transition-duration: 0.7s;
+    transform: translateY(0);
+}
+.card section{
+    background: rgba(1, 9, 28, 0.75);
+    width: 32%;
+    border-radius: 20px;
+    padding: 25px;
+}
+.card h3{
+    font-size: 1.8rem;
+    margin-block-end: 0.1em;
+    margin-block-start: 0.1em;
+}
+.card p{
+    font-size: 1.3rem;
+    margin-block-end: 0.1em;
+    margin-block-start: 0.1em;
+}
