@@ -11,3 +11,6 @@
     display: flex;
     column-gap: 1em;
 }
+.navbar a{
+    color: aliceblue !important; /*defino que é importante*/
+}
