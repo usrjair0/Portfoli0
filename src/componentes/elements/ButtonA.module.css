@@ -10,6 +10,10 @@
 .btn:hover{
     color: aliceblue;
     background-color: #010b28;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
     transform: translateY(-7px);
+}
+.btn:not(:hover) {
+    transition-duration: 0.7s;
+    transform: translateY(0);
 }
