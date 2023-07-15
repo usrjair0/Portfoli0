@@ -13,27 +13,28 @@ function Projects (){
             title='CCXP DNC' 
             tech='Html, CSS e Javascript'
             description=
-            'descrição projeto blablalblablablab'
+            'O projeto é uma página interativa com algumas funções em javascript, como por exemplo, um countdown.'
             repo='https://github.com/usrjair0/CCPX_DNC' 
             site='https://ccxpdnc.vercel.app/'
             />
             <Card
             img={projetoNLW}
             title='Cápsula do tempo' 
-            tech='' 
-            description=''
-            repo='' 
-            site=''
+            tech='Html, CSS e javascript' 
+            description='O projeto consiste em uma máquina do tempo, na qual posso contar minha trajetória na programação'
+            repo='https://github.com/usrjair0/NLW-SpaceTime' 
+            site='https://usrjair0.github.io/NLW-SpaceTime/'
             />
             <Card
             img={ccxpDNC}
-            title='' 
-            tech='' 
-            description=''
-            repo='' 
-            site=''
+            title='CCXP DNC' 
+            tech='Html, CSS e Javascript'
+            description=
+            'O projeto é uma página interativa com algumas funções em javascript, como um countdown'
+            repo='https://github.com/usrjair0/CCPX_DNC' 
+            site='https://ccxpdnc.vercel.app/'
             />
-            <ButtonB pag='_blank' link='https://www.google.com.br/' text='Acesse meu repositório'/>
+            
         </div>
     )
 }

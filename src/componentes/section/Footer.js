@@ -5,9 +5,9 @@ function Footer (){
     return (
         <div className={styles.footer}> 
             <ul>
-                <li><a href='https://www.instagram.com/jairoo.jrr/'><FaInstagram size={29}/></a></li>
-                <li><a href='https://github.com/usrjair0'><FaGithub size={29}/></a></li>
-                <li><a href='https://www.linkedin.com/in/jairosilva1a/'><FaLinkedin size={29}/></a></li>
+                <li><a href='https://www.instagram.com/jairoo.jrr/' target='_blank'><FaInstagram size={29}/></a></li>
+                <li><a href='https://github.com/usrjair0' target='_blank'><FaGithub size={29}/></a></li>
+                <li><a href='https://www.linkedin.com/in/jairosilva1a/' target='_blank' ><FaLinkedin size={29}/></a></li>
             </ul>
             <p>
                 juniorsilvasobrinho1999@gmail.com
