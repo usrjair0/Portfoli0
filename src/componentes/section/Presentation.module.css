@@ -1,8 +1,23 @@
 .presentation{
+    display: flex;
+    justify-content: center;
     text-align: left;
-    margin-left: 3%;
+    margin: 2% 2%;
     font-size: 1.3rem;
 }
-h2{
-    margin-block-end: 0.3em;
+.infos h2{
+    margin-block-end: 0em;
+}
+.infos h1{
+    margin-block-end: 0em;
+    margin-block-start: 0.4em;
+}
+.imgsect{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imgsect img{
+    width: 50%;
+    border-radius: 20px;
 }

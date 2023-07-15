@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5%;
+    color: #604106;
 }
 .card a{
     width: 32%;
@@ -12,6 +13,7 @@
 .card img {
     width: 100%;
     border-radius: 20px;
+    border: 1px solid black;
 }
 .card img:hover{
     transition-duration: 0.7s;
@@ -23,10 +25,11 @@
     transform: translateY(0);
 }
 .card section{
-    background: rgba(1, 9, 28, 0.75);
+    background: #FDFBFB;
     width: 32%;
     border-radius: 20px;
     padding: 25px;
+    border: 1px solid black;
 }
 .card h3{
     font-size: 1.8rem;
