@@ -4,6 +4,12 @@ import avatar from '../images/avatar_no_back.png'
 import {useEffect, useState} from 'react'
 
 function Presentation (){
+    useEffect(()=>{
+        let ticker = setInterval(2000)
+        return () => {clearInterval()}
+    }, [text]);
+    
+
     return (
         <div className={styles.presentation} id="Presentation"> 
             <div className={styles.infos}>
