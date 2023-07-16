@@ -1,6 +1,7 @@
 import styles from './Presentation.module.css';
 import ButtonA from '../elements/ButtonA.js';
 import avatar from '../images/avatar_no_back.png'
+import {useEffect, useState} from 'react'
 
 function Presentation (){
     return (
