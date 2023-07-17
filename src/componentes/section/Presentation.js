@@ -4,18 +4,41 @@ import avatar from '../images/avatar_no_back.png'
 import {useEffect, useState} from 'react'
 
 function Presentation (){
+    const [text, settext] = useState('');
+    const toRotate = ['Me chamo Jairo!', 'Sou Desenvolvedor Front End', 'Sou Desenvolvedor web']; 
+    const [loop, setloop] = useState(0);
+    const [isDeleting, setisDeleting] = useState(false);
+    const period = 100;
+    const [delta, setdelta] = useState(100);
+
     useEffect(()=>{
-        let ticker = setInterval(2000)
-        return () => {clearInterval()}
+        let ticker = setInterval(()=>{
+            toType()
+        }, delta)
+        return () => {clearInterval(ticker)}
     }, [text]);
-    
+    const toType = () =>{
+        let i = loop % toRotate.length;
+        let fullText = toRotate[i];
+        let updatedText = isDeleting ? fullText.substring(0, text.length-1) : fullText.substring(0, text.length+1);
+        settext(updatedText);
+        if(!isDeleting && updatedText=== fullText){
+            setisDeleting(true);
+            setdelta(period)
+        }else if(isDeleting && updatedText === ''){
+            setisDeleting(false);
+            setdelta(period);
+            setloop(loop + 1);
+        }
+    }
+
 
     return (
         <div className={styles.presentation} id="Presentation"> 
             <div className={styles.infos}>
             <h2>Bem-vindo!</h2>
             <h1>
-                Me chamo Jairo!
+                {text}
             </h1>
             <p>
                 Sou estudante de engenharia de software e desenvolvedor Front-end<br/>
