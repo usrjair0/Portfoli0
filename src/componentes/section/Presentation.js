@@ -18,7 +18,7 @@ function Presentation (){
         return () => {clearInterval(ticker)}
     }, [text]);
     const toType = () =>{
-        let i = loop % toRotate.length;
+        let i = loop % toRotate.length; // isso limita meu i a um valor entre 0 e 2 no máximo
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length-1) : fullText.substring(0, text.length+1);
         settext(updatedText);
