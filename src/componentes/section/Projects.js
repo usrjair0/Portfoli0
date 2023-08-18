@@ -3,6 +3,7 @@ import ButtonB from '../elements/ButtonB';
 import Card from '../elements/Card';
 import ccxpDNC from '../images/ccxpDNC.png';
 import projetoNLW from '../images/projetoNLW.png';
+import ecommercjs from '../images/Ecommercjs.png'
 
 function Projects (){
     return (
@@ -26,13 +27,13 @@ function Projects (){
             site='https://usrjair0.github.io/NLW-SpaceTime/'
             />
             <Card
-            img={ccxpDNC}
-            title='CCXP DNC' 
-            tech='Html, CSS e Javascript'
+            img={ecommercjs}
+            title='Ecommerc' 
+            tech='react, sass'
             description=
-            'O projeto é uma página interativa com algumas funções em javascript, como um countdown'
-            repo='https://github.com/usrjair0/CCPX_DNC' 
-            site='https://ccxpdnc.vercel.app/'
+            'O projeto consiste em um site de e-commerc que utiliza rotas dinâmicas'
+            repo='https://github.com/usrjair0/E-commerc' 
+            site='https://e-commerc-blue.vercel.app/'
             />
             
         </div>
