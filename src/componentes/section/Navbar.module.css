@@ -1,16 +1,16 @@
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    padding: 1em;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
 }
 .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    column-gap: 1em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  column-gap: 1em;
 }
-.navbar a{
-    color: aliceblue !important; /*defino que é importante*/
+.navbar a {
+  color: aliceblue !important; /*defino que é importante*/
 }
