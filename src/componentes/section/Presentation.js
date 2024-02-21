@@ -22,7 +22,7 @@ function Presentation (){
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length-1) : fullText.substring(0, text.length+1);
         settext(updatedText);
-        if(!isDeleting && updatedText=== fullText){
+        if(!isDeleting && updatedText === fullText){
             setisDeleting(true);
             setdelta(period)
         }else if(isDeleting && updatedText === ''){
