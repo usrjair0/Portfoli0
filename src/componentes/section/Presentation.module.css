@@ -1,0 +1,28 @@
+.presentation {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #eae5e5;
+}
+.infos {
+  margin-left: 5%;
+}
+.infos h2 {
+  margin-block-end: 0em;
+}
+.infos h1 {
+  margin-block-end: 0em;
+  margin-block-start: 0.4em;
+}
+.infos p {
+  font-size: 1.2rem;
+}
+.imgsect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgsect img {
+  width: 70%;
+  border-radius: 20px;
+}
